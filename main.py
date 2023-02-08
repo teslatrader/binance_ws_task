@@ -6,7 +6,6 @@
 # в консоль.
 # При этом программа должна продолжать работать дальше, постоянно считывая актуальную цену.
 
-import threading, websocket, time
 from ws_client import WsClient as bnb_client
 from tracker import Tracker as tracker
 
